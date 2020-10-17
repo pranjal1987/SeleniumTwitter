@@ -54,7 +54,7 @@ public class StepDefinition extends LoginPage {
 	
 	//Profile Page methods
 	@Given("user is logged in on twitter")
-	public void user_is_logged_in_on_twitter() {
+	public void user_is_logged_in_on_twitter() throws Exception {
 		login.login(prop.getProperty("username"), prop.getProperty("password"));
 		
 		//

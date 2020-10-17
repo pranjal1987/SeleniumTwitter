@@ -32,12 +32,14 @@ public class LoginPage extends TestBase {
 	// Login method
 	public void login(String userName, String pwd) {
 		try{
+			driver.navigate().refresh();
 			utils.click(loginBtnOnHome, "Login Button on Home Page");
 		}catch(StaleElementReferenceException E){
+			driver.navigate().refresh();			
 			utils.click(loginBtnOnHome, "Login Button on Home Page");
 		}
-		username.sendKeys(userName);
-		password.sendKeys(pwd);
+		utils.sendKeys(username, "Username", userName);
+		utils.sendKeys(password, "Password", pwd);
 		password.sendKeys(Keys.TAB);
 		password.sendKeys(Keys.ENTER);
 		//Javascript to be handled
