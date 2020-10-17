@@ -1,23 +1,28 @@
 package pages;
 
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import util.TestBase;
 
-public class LoginPage extends TestBase{
+public class LoginPage extends TestBase {
 	
 	//Page Factory
+	@FindBy(xpath="//span[text()='Log in']")
+	WebElement loginBtnOnHome;
 	
-	@FindBy(xpath="//body/div[@id='react-root']/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/label[1]/div[1]/div[2]/div[1]/input[1]")
+	@FindBy(xpath="//input[@name='session[username_or_email]' and @autocomplete='on']")
 	WebElement username;
 	
-	@FindBy(xpath="//body/div[@id='react-root']/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/label[1]/div[1]/div[2]/div[1]/input[1]")
+	@FindBy(xpath="//input[@name='session[password]' and @autocomplete='on']")
 	WebElement password;
 	
-	@FindBy(name="")
+	@FindBy(xpath="(//span[text()='Log in'])[2]")
 	WebElement loginBtn;
+	
 	
 	//initializing page object
 	public LoginPage() {
@@ -25,11 +30,19 @@ public class LoginPage extends TestBase{
 	}
 	
 	// Login method
-	public HomePage login(String userName, String pwd) {
+	public void login(String userName, String pwd) {
+		try{
+			utils.click(loginBtnOnHome, "Login Button on Home Page");
+		}catch(StaleElementReferenceException E){
+			utils.click(loginBtnOnHome, "Login Button on Home Page");
+		}
 		username.sendKeys(userName);
 		password.sendKeys(pwd);
-		loginBtn.click();	
-		return new HomePage();
+		password.sendKeys(Keys.TAB);
+		password.sendKeys(Keys.ENTER);
+		//Javascript to be handled
+		//utils.click(loginBtn, "Login Button on Home Page");
+		
 	}
 	
 	

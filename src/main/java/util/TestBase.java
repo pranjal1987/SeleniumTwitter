@@ -16,24 +16,15 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
+	public TestUtil utils;
 
 	//Constructor
 	public TestBase() {
-
-		//Read Properties File
-		try {
-			prop = new Properties();
-			FileInputStream fis = new FileInputStream("/Users/dineshladdha/eclipse-workspace/"
-					+ "TestTwitterApp/src/main/java/config/config.properties");
-			prop.load(fis);
-		} catch (IOException e) {
-			e.getMessage();
-			e.printStackTrace();
-		}
+		utils = new TestUtil();
 	}
 
 	//Initialization Driver Method
-	public static void initialization() {
+	public static void initializeDriver() {
 		String browserName = prop.getProperty("browser");
 
 		if(browserName.equals("chrome")) {
@@ -59,6 +50,18 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 	}
 
+	
+	public static void loadConfiguration(){
+		//Read Properties File
+		try {
+			prop = new Properties();
+			FileInputStream fis = new FileInputStream("src/main/java/config/config.properties");
+			prop.load(fis);
+		} catch (IOException e) {
+			e.getMessage();
+			e.printStackTrace();
+		}
+	}
 
 
 

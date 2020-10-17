@@ -1,12 +1,13 @@
 Feature: Feature to validate profile update
 
+	@TC02 @Profile
   Scenario: Updates profile photo
     Given user is logged in on twitter
-    Then user navigates to Profile page
-    When user click on edit profile
-    Then user Click on photo
-    Then user Browses a photo
-    Then click on apply
+#    Then user navigates to Profile page
+#    When user click on edit profile
+#    Then user Click on photo
+#    Then user Browses a photo
+#    Then click on apply
 
    Scenario: Updates BIO field
    	Given user is logged in on twitter
