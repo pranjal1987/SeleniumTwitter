@@ -15,7 +15,7 @@ import io.cucumber.junit.Cucumber;
 		features="src/main/java/features",
 		glue= {"StepDefinitions"},
 		tags="@TC02",
-		dryRun=true,
+		dryRun=false,
 		//monochrome = true,
 		plugin = {"pretty","html:target/HTMLReports"}
 		
