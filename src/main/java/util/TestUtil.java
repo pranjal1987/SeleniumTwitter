@@ -1,8 +1,8 @@
 package util;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,6 +12,8 @@ public class TestUtil {
 	static int IMPLICT_WAIT = 20;
 	static int EXPLICIT_WAIT = 20;
 	private WebDriver driver;
+	public static Logger log = Logger.getLogger(TestUtil.class.getName());
+	
 	
 	public TestUtil(){
 		this.driver = TestBase.driver;
@@ -20,7 +22,7 @@ public class TestUtil {
 	public void click (WebElement element, String elementName){
 		if(dynamicWait(element,"VisibilityOfElementLocated")){
 			element.click();
-			System.out.println("Clicked on "+elementName);
+			log.info("Clicked on "+elementName);
 		}
 	}
 	
@@ -28,12 +30,12 @@ public class TestUtil {
 		if(dynamicWait(element,"VisibilityOfElementLocated")){
 			if(dynamicWait(element,"ElementToBeClickable")){
 				element.sendKeys(value);
-				System.out.println("Entered "+value+"value on "+elementName+" text box");
+				log.info("Entered "+value+"value on "+elementName+" text box");
 			}else{
-				System.out.println(elementName+" is not clickable");
+				log.error(elementName+" is not clickable");
 			}
 		}else{
-			System.out.println(elementName+" is not visible");
+			log.error(elementName+" is not visible");
 		}
 	}
 	
@@ -54,5 +56,7 @@ public class TestUtil {
 			return false;
 		}
 	}
+	
+	
 		
 }

@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
@@ -9,6 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 import util.TestBase;
 
 public class LoginPage extends TestBase {
+	
+	public static Logger log = Logger.getLogger(LoginPage.class.getName());
 	
 	//Page Factory
 	@FindBy(xpath="//span[text()='Log in']")
