@@ -25,7 +25,8 @@ public class ProfilePage extends TestBase {
 	@FindBy(xpath="//span[text()='Edit profile']")
 	WebElement editProfileBtn;
 	
-	@FindBy(xpath="(//span[text()='Name']/ancestor::label/../preceding-sibling::div/div/div/div[3]/div/div/*[name()=\"svg\"])[2]")
+	//@FindBy(xpath="(//span[text()='Name']/ancestor::label/../preceding-sibling::div/div/div/div[3]/div/div/*[name()=\"svg\"])[2]")
+	@FindBy(xpath="//div[@aria-label='Add avatar photo' and @role='button']")
 	WebElement profilePhoto;
 	
 	@FindBy(xpath="//span[text()='Apply']")
@@ -38,7 +39,7 @@ public class ProfilePage extends TestBase {
 	WebElement searchTweets;
 	
 	@FindBy(xpath="//span[text()='The Times Of India']")
-	WebElement searchedTimeOfIndia;
+	WebElement searchedTweetHandle;
 	
 	LinkedHashSet<String> setOfTweets = new LinkedHashSet<>();
 	
@@ -64,16 +65,16 @@ public class ProfilePage extends TestBase {
 		utils.click(saveBtn, "Save Button");
 	}
 	
-	public void retrieveTweets() throws Exception{
-		utils.sendKeys(searchTweets, "Search Tweets", "The Times Of India");
+	public void retrieveTweets(String searchTweetHandle) throws Exception{
+		utils.sendKeys(searchTweets, "Search Tweets", searchTweetHandle);
 		Thread.sleep(2000);
 		Actions action = new Actions(driver);
-		action.moveToElement(searchedTimeOfIndia).perform();
-		utils.click(searchedTimeOfIndia,"The Times Of India");
-		captureTweetsForFirstTwoHours();
+		action.moveToElement(searchedTweetHandle).perform();
+		utils.click(searchedTweetHandle,searchTweetHandle);
+		/*captureTweetsForFirstTwoHours();*/
 	}
 	
-	void captureTweetsForFirstTwoHours() throws Exception{
+	public void captureTweetsForFirstTwoHours() throws Exception{
 		String time = "";
 		int tweetCounter = 0;
 		while(!time.equals("3h")){

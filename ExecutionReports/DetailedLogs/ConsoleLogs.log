@@ -245,3 +245,278 @@ https://bit.ly/3dCSUwM
 2020-10-18 14:45:51 INFO  ProfilePage:124 - Tweet Number#33 : 2\3 LA Surendra Singh (in file photo) over his state
 2020-10-18 14:45:51 INFO  ProfilePage:124 - Tweet Number#33 : 3\3 ents in connection with Ballia incident.
 2020-10-18 14:45:51 INFO  StepDefinition:36 - **********************Completed execution for scenario : Updates profile photo**********************
+2020-10-18 14:58:53 INFO  TestBase:68 - Successfully Loaded confirguration properties
+2020-10-18 14:58:53 INFO  StepDefinition:27 - **********************Starting execution for scenario : Updates profile photo**********************
+2020-10-18 14:58:59 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-18 14:59:08 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-18 14:59:10 INFO  TestUtil:25 - Clicked on Login Button on Home Page
+2020-10-18 14:59:12 INFO  TestUtil:33 - Entered testacc18694292value on Username text box
+2020-10-18 14:59:12 INFO  TestUtil:33 - Entered Test@123value on Password text box
+2020-10-18 14:59:15 INFO  TestUtil:25 - Clicked on Profile Button
+2020-10-18 14:59:17 INFO  TestUtil:25 - Clicked on Edit Profile Button
+2020-10-18 14:59:18 INFO  TestUtil:25 - Clicked on Profile photo Button
+2020-10-18 14:59:29 INFO  TestUtil:25 - Clicked on Apply Button
+2020-10-18 14:59:29 INFO  TestUtil:25 - Clicked on Save Button
+2020-10-18 14:59:30 INFO  StepDefinition:36 - **********************Completed execution for scenario : Updates profile photo**********************
+2020-10-18 15:00:14 INFO  TestBase:68 - Successfully Loaded confirguration properties
+2020-10-18 15:00:14 INFO  StepDefinition:27 - **********************Starting execution for scenario : Updates profile photo**********************
+2020-10-18 15:00:20 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-18 15:00:30 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-18 15:00:32 INFO  TestUtil:25 - Clicked on Login Button on Home Page
+2020-10-18 15:00:33 INFO  TestUtil:33 - Entered testacc18694292value on Username text box
+2020-10-18 15:00:34 INFO  TestUtil:33 - Entered Test@123value on Password text box
+2020-10-18 15:00:41 INFO  TestUtil:25 - Clicked on Profile Button
+2020-10-18 15:00:42 INFO  TestUtil:25 - Clicked on Edit Profile Button
+2020-10-18 15:00:44 INFO  TestUtil:25 - Clicked on Profile photo Button
+2020-10-18 15:00:48 INFO  TestUtil:25 - Clicked on Apply Button
+2020-10-18 15:00:49 INFO  TestUtil:25 - Clicked on Save Button
+2020-10-18 15:00:50 INFO  StepDefinition:36 - **********************Completed execution for scenario : Updates profile photo**********************
+2020-10-18 15:01:47 INFO  TestBase:68 - Successfully Loaded confirguration properties
+2020-10-18 15:01:47 INFO  StepDefinition:27 - **********************Starting execution for scenario : Updates profile photo**********************
+2020-10-18 15:01:53 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-18 15:02:00 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-18 15:02:02 INFO  TestUtil:25 - Clicked on Login Button on Home Page
+2020-10-18 15:02:03 INFO  TestUtil:33 - Entered testacc18694292value on Username text box
+2020-10-18 15:02:03 INFO  TestUtil:33 - Entered Test@123value on Password text box
+2020-10-18 15:02:10 INFO  TestUtil:33 - Entered The Times Of Indiavalue on Search Tweets text box
+2020-10-18 15:02:13 INFO  TestUtil:25 - Clicked on The Times Of India
+2020-10-18 15:02:47 INFO  ProfilePage:100 - Total tweets are 31
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#1********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 BrahMos supersonic cruise missile successfully te
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 t fired from INS Chennai, will ensure warship's 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 nvincibility 
+
+http://toi.in/fBzJab/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#2********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Remdesivir, after global study hit, faces perform
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 nce review in Maharashtra 
+
+http://toi.in/VIu52a
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 1/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#3********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Indore: Hundreds record video as man drowns, cops
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3  valiant rescue goes in vain 
+
+http://toi.in/p3z
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 Ub/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#4********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\5 .
+@ABdeVilliers17
+ smashed 22-ball 55 not out to 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\5 uccessfully chase a target of 178 in 
+@RCBTweets
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\5 ' incredible seven-wicket win against 
+@rajastha
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\5 royals
+ in the 
+@IPL
+. 
+
+#ABDevilliers #RRvsRCB 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\5 IPL2020
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#5********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\2 Chennai: At Marundeeswarar temple, thief prays, l
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\2 ots and leaves 
+
+http://toi.in/biNalZ/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#6********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 What we eat vs. What we should eat
+
+Indian diet l
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 ses the plot as veggies, milk take a backseat. 
+
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 Read: http://toi.in/w1q7Eb
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#7********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\4 #BigStory: Uncovering the secrets behind the disa
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\4 pearance of Bollywood baddies! 
+ “#BigStory: Mis
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\4 ing Bollywood baddies! Where are the villains?” 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\4 y 
+@etimes
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#8********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 On hilltops, inside forests: Villagers in Goa bui
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 d temporary sheds for students 
+
+http://toi.in/S
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 VOXY1/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#9********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Cox & Kings cheating case: CA found dead near tra
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 ks in Thane day before date with cops 
+
+http://t
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 i.in/-it7gb83/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#10********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\2 If AQI turns severe, odd-even may return in Delhi
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\2 
+
+http://toi.in/nrHjbY95/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#11********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Big boost for 
+@KKRiders
+ as 
+@SunilPNarine74
+ cl
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 ared of suspect bowling action 
+
+READ: http://to
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 .in/dWkP3Y/a24gk
+
+#KKR
+ #SunilNarine #IPL2020
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#12********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\5 #TOICoronaLetter | Do frequent sero surveys reall
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\5  help?
+
+ Leading epidemiologists have now asked 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\5 tates to ensure there is a gap of at least two t
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\5  three months between two rounds of localised se
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\5 o surveys
+
+Read: https://bit.ly/2T3rAP1
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#13********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Mumbai: Sports coaches find creative ways to take
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 field & court training online 
+
+http://toi.in/ss
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 5db57/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#14********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\4 #Update | Will meet Prime Minister Narendra Modi 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\4 o seek assistance for farmers who have suffered 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\4 osses due to heavy rains in Maharashtra: NCP chi
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\4 f Sharad Pawar
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#15********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 P Chidambaram cites Joe Biden's 'unity over divis
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 on' remark, urges voters in Bihar, MP to take si
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 ilar vow http://toi.in/XakKYa/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#16********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\2 Hardship faced by migrant labourers during lockdo
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\2 n theme of many Durga Puja committees
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#17********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\5 364 leopards lost in 286 days, and no one knows w
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\5 y
+
+As leopards are dying in 'retaliatory' killin
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\5 s amid shrinking green spaces, conservationists 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\5 ave little information on where leopard populati
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\5 ns are spread
+
+http://toi.in/QwTGfa21
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#18********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\2 Rahul Gandhi slams BJP over growing incidents of 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\2 rimes against women http://toi.in/9JeZ9b36/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#19********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\2 Lens on J&K schools ‘motivating kids to become te
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\2 rorists’: DGP http://toi.in/VlNl1Y7/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#20********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Coronavirus survives on skin five times longer th
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 n flu: Study http://toi.in/kfKwLY63/a24gk via 
+@
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 OIWorld
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#21********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\5 US polls: New Congress could have more Indian Ame
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\5 icans to the House 
+
+The "Samosa caucus" compris
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\5 s of five Indian-American lawmakers, including f
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\5 ur members of the House of Representatives and S
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\5 nator and Democratic VP nominee Kamala Harris.
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#22********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\6 Pandemic, politics lead to closure of storied Hon
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\6  Kong bar 
+
+Social distancing restrictions have 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\6 lso halved the capacity of the city's bars and r
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\6 staurants, making it more difficult for them to 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\6 urn a profit.
+
+http://toi.in/5RBAwa89/a24gk via 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 6\6 @TOIWorld
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#23********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\2 China forces prepare for possible military invasi
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\2 n of Taiwan 
+
+http://toi.in/Ozhn9b94/a24gk
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#24********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Ballia firing accused Dhirendra, 2 others, arrest
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 d in Lucknow http://toi.in/zapJEZ/a24gk via 
+@TO
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 Lucknow
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#25********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\4 #IPL2020
+: 
+@DJBravo4
+ could be out for a couple 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\4 f weeks, says 
+@SPFleming7
+ 
+READ: http://toi.in
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\4 IE-Pqb45/a24gk 
+
+#DCvsCSK #DCvCSK #DwayneBravo #
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\4 SDhoni #CSK
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#26********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\6 Active Covid-19 cases below 8 lakh for 2nd day in
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\6 row; recovery rate 88.03% 
+
+As many as 22 states
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\6 and Union Territories, including Madhya Pradesh,
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\6 Gujarat, Bihar, Jharkhand, Punjab, Arunachal Pra
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\6 esh and Chandigarh, have less than 20,000 active
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 6\6 cases.
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#27********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Singapore's world-first face scan plan sparks pri
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3 acy fears http://toi.in/l0UuWZ/a24gk via 
+@TOIWo
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 ld
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#28********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\6 #ImwithSanna trends after Finnish PM trolled for 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\6 ow-cut coat 
+
+Trendi Magazine shared some of the
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\6 #ImWithSanna images to its Instagram account, sh
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\6 wing women of all ages posing wearing a plunging
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\6 black blazer.
+
+http://toi.in/VIcyYa/a24gk via 
+@
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 6\6 OIWorld
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#29********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\6 BrahMos supersonic cruise missile successfully te
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\6 tfired from Indian Navy’s indigenously-built ste
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\6 lth destroyer INS Chennai today hitting a target
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\6 in the Arabian Sea. It hit the target successful
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\6 y with pinpoint accuracy after performing high-l
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 6\6 vel & extremely complex manoeuvres
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#30********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\5 France to rally in solidarity, defiance after beh
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\5 ading of teacher
+
+Rallies were also expected in 
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\5 yon, Toulouse, Strasbourg, Nantes, Marseille, Li
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 4\5 le and Bordeaux.
+
+Read: http://toi.in/WAMk8a/a24
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 5\5 k via 
+@TOIWorld
+2020-10-18 15:02:47 INFO  ProfilePage:114 - *******************Tweet Number#31********************
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 1\3 Saudi Arabia allows citizens, residents to perfor
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 2\3  prayers in Al-Haram Mosque http://toi.in/OmZg3b
+2020-10-18 15:02:47 INFO  ProfilePage:124 - 3\3 a24gk via 
+@TOIWorld
+2020-10-18 15:02:47 INFO  StepDefinition:36 - **********************Completed execution for scenario : Updates profile photo**********************
+2020-10-18 15:18:13 INFO  TestBase:68 - Successfully Loaded confirguration properties
+2020-10-18 15:18:13 INFO  StepDefinition:27 - **********************Starting execution for scenario : Updates profile photo**********************
+2020-10-18 15:18:18 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-18 15:19:01 INFO  TestBase:68 - Successfully Loaded confirguration properties
+2020-10-18 15:19:01 INFO  StepDefinition:27 - **********************Starting execution for scenario : Updates profile photo**********************
+2020-10-18 15:19:10 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-18 15:19:17 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-18 15:19:19 INFO  TestUtil:25 - Clicked on Login Button on Home Page
+2020-10-18 15:19:19 INFO  TestUtil:33 - Entered testacc18694292value on Username text box
+2020-10-18 15:19:20 INFO  TestUtil:33 - Entered Test@123value on Password text box
+2020-10-18 15:19:40 INFO  TestUtil:25 - Clicked on Profile Button
+2020-10-18 15:19:42 INFO  TestUtil:25 - Clicked on Edit Profile Button
+2020-10-18 15:19:43 INFO  TestUtil:25 - Clicked on Profile photo Button
+2020-10-18 15:19:49 INFO  TestUtil:25 - Clicked on Apply Button
+2020-10-18 15:19:50 INFO  TestUtil:25 - Clicked on Save Button
+2020-10-18 15:19:50 INFO  StepDefinition:36 - **********************Completed execution for scenario : Updates profile photo**********************

@@ -63,9 +63,12 @@ public class StepDefinition extends LoginPage {
 	@Given("user is logged in on twitter")
 	public void user_is_logged_in_on_twitter() throws Exception {
 		login.login(prop.getProperty("USERNAME"), prop.getProperty("PASSWORD"));
-		//
-		//profilePage.updateProfile();
-		profilePage.retrieveTweets();
+		//Update Profile
+		profilePage.updateProfile();
+		
+		//Tweet scenario
+		/*profilePage.retrieveTweets("The Times Of India");
+		profilePage.captureTweetsForFirstTwoHours();*/
 		
 	}
 		
