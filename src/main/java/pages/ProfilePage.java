@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -35,7 +36,7 @@ public class ProfilePage extends TestBase {
 	@FindBy(xpath="//span[text()='The Times Of India']")
 	WebElement searchedTimeOfIndia;
 	
-	HashSet<String> listOfTweets = new HashSet<>();
+	HashSet<String> setOfTweets = new HashSet<>();
 	
 	//initializing page object
 	public ProfilePage() {
@@ -50,11 +51,6 @@ public class ProfilePage extends TestBase {
 		action.moveToElement(searchedTimeOfIndia).perform();
 		utils.click(searchedTimeOfIndia,"The Times Of India");
 		scrollTillTweets();
-		List<WebElement> list = driver.findElements(By.xpath("//div[@aria-label='Timeline: The Times Of India’s Tweets']/div/div//time"));
-		
-		for(WebElement element : list){
-			System.out.println("Time is "+element.getText());
-		}
 		
 		/*
 		utils.click(profileBtn, "Profile Button");
@@ -74,21 +70,35 @@ public class ProfilePage extends TestBase {
 		
 		String time = "";
 		while(!time.equals("3h")){
-			List<WebElement> list = driver.findElements(By.xpath("//div[@aria-label='Timeline: The Times Of India’s Tweets']/div/div//time"));
+			List<WebElement> list = driver.findElements(By.xpath("//div[contains(@aria-label,'Timeline: The Times Of India')]/div/div//time"));
 			//WebElement ele = driver.findElement(By.xpath("//div[@aria-label='Timeline: The Times Of India’s Tweets']/div/div//time[text()='"+i+"h']"));
 			System.out.println("Tweets size is "+list.size());
-			for(WebElement element : list){
-				listOfTweets.add(element.getText());
+			for(int iCount=1;iCount<list.size();iCount++){
+				if(!list.get(iCount).getText().equals("3h")){
+					try{
+						WebElement we = driver.findElement(By.xpath("(//div[contains(@aria-label,'Timeline: The Times Of India')]/div/div//time)["+iCount+"]/"
+								+ "following::div[@class='css-1dbjc4n'][1]/div[1]/div"));
+						setOfTweets.add(getTextNode(we));
+					}catch(NoSuchElementException E){
+						break;
+					}
+				}
 			}
 			
 			((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",list.get(list.size()-1));
 			Thread.sleep(2000);
-			WebElement ele = driver.findElement(By.xpath("//div[@aria-label='Timeline: The Times Of India’s Tweets']/div/div//time"));
+			WebElement ele = driver.findElement(By.xpath("//div[contains(@aria-label,'Timeline: The Times Of India')]/div/div//time"));
 			if(ele.getText().equals("3h")){
 				time = "3h";
 			}
 		}
-		System.out.println("Total tweets are "+listOfTweets.size());
+		System.out.println("Total tweets are "+setOfTweets.size());
 		
+	}
+	
+	public static String getTextNode(WebElement e)
+	{
+	    String text = e.getText().trim();
+	    return text;
 	}
 }
